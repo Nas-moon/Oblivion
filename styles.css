@@ -1,6 +1,10 @@
 body {
   background-color: lightblue;
+  border: 2px solid darkblue;
+  padding: 30px;
 }
 h1 {
-  color: red;
+  font-color: darkblue;
+  font-family: verdana;
+  font-size: 150%
 }

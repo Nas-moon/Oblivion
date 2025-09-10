@@ -3,6 +3,7 @@ body {
   border: 2px solid darkblue;
   padding: 30px;
   margin: 30px;
+  height: 100%
 }
 h1 {
   color: darkblue;

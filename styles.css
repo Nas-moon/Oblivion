@@ -2,8 +2,14 @@ body {
   background-color: lightblue;
   border: 2px solid darkblue;
   padding: 30px;
+  margin: 30px;
 }
 h1 {
-  color: yellow;
+  color: darkblue;
   font-family: verdana;
+}
+
+p {
+  color: darkblue;
+  font-family: comic-sans;
 }

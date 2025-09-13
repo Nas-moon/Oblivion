@@ -1,5 +1,5 @@
 body {
-  background-color: deeppurple;
+  background-color: #140e20;
   border: 2px solid darkblue;
   padding: 30px;
   margin: 30px;
@@ -7,5 +7,11 @@ body {
 }
 h1 {
   color: silver;
-  font-family: verdana,impact;
+  font-family: Horizon,impact;
 }
+
+video {
+     height: 500px;
+     width: 707px;
+}
+

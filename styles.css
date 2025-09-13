@@ -1,16 +1,11 @@
 body {
-  background-color: lightblue;
+  background-color: deeppurple;
   border: 2px solid darkblue;
   padding: 30px;
   margin: 30px;
   height: 100%
 }
 h1 {
-  color: darkblue;
-  font-family: verdana;
-}
-
-p {
-  color: darkblue;
-  font-family: comic-sans;
+  color: silver;
+  font-family: verdana,impact;
 }

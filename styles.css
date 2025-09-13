@@ -7,12 +7,14 @@ body,html{
 }
 h1 {
   color: silver;
-  font-family: Horizon,impact;
+  font-family: Poppins,impact;
 }
 
 video {
-     height: 300px;
-     width: 424px;
+     height: auto;
+     max-width: 100%;
+     display: block;
+     margin: 0 auto;
 }
 
 img {

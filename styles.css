@@ -3,21 +3,34 @@ body,html {
   padding: 0;
   height: 100%;
   background: #140e20;
+  font-family: 'Poppins', sans-serif;
 }
-  nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: top;
-  padding: 10px 20px;
-  background: #333;
+
+/* Nav bar */
+nav {
+  width: 100%;
+  background: #140e20;
   color: #140e20;
+  display: flex;
+  justify-content: space-between;  /* logo left, links right */
+  align-items: center;
+  padding: 10px 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  position: fixed;   /* stays at top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
+/* Logo */
 nav .logo {
-  height: 45px;   /* keeps it small */
-  width: 45px;    /* keeps aspect ratio */
+  height: 40px;   /* fix logo size */
+  width: auto;
 }
 
+
+
+ 
 hr{
   border: 2px solid white;
 }
@@ -40,19 +53,15 @@ body {
 
 .container {
   background: #140e20;
-  border: none;        /* optional: remove border */
-  border-radius: 0;    /* no rounded corners */
-  width: 100%;
-  height: 100vh;       /* full viewport height */
-  max-width: 100%;     /* allow full stretch */
-  box-shadow: none;    /* remove card shadow */
-  padding: 50px;
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* center content vertically */
-  align-items: center;     /* center horizontally */
+  margin-top: 80px;
+  padding: 30px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  color: silver;
+  text-align: center;
 }
-
 
 .container > *:last-child {
   margin-bottom: 0;  /* space between sections */

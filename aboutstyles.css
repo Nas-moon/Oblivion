@@ -26,14 +26,15 @@ hr {
 }
 
 #binary-container {
-    color: silver;
+    color: #00ff88;
     font-family: monospace;
     font-size: 14px;
     padding: 20px;
     white-space: pre-wrap;
     max-width: 90%;
     margin: 20px auto;
-    border: 1px solid #555;
+    border: 1px solid #0f0;
     border-radius: 8px;
-    background: #1b1429;
+    background: #000;
+    text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
 }

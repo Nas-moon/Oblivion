@@ -28,7 +28,9 @@ nav .logo {
   width: auto;
 }
 
-
+.keys {
+  display: inline-blocks
+}
 
  
 hr{

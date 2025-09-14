@@ -14,13 +14,19 @@ body {
 
 .container {
   background: #140e20;
-  border: 2px solid #333;
-  border-radius: 15px;
-  padding: 30px;
-  max-width: 600px;
-  width: 90%;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  border: none;        /* optional: remove border */
+  border-radius: 0;    /* no rounded corners */
+  width: 100%;
+  height: 100vh;       /* full viewport height */
+  max-width: 100%;     /* allow full stretch */
+  box-shadow: none;    /* remove card shadow */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center content vertically */
+  align-items: center;     /* center horizontally */
 }
+
 
 .container > *:last-child {
   margin-bottom: 0;  /* space between sections */

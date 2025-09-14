@@ -1,0 +1,17 @@
+body {
+  background-color: lineargradient(135deg,#140e20 50%,#36013f 100%);
+}
+h1 {
+  font-family: Impact;
+  color: silver;
+}
+p{
+  color: silver;
+}
+.neon{
+  background: rgba(192,192,192,1.0)
+  width: auto;
+  height: 3px;
+  border: 1px;
+  box-shadow: 2px 1px 40%;
+}

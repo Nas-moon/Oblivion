@@ -37,5 +37,6 @@ hr {
     border: 1px solid #0f0;
     border-radius: 8px;
     background: #000;
-    text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+    /* Updated glow effect for a stronger visual */
+    text-shadow: 0 0 5px #00ff88, 0 0 10px #00ff88, 0 0 15px #00ff88;
 }

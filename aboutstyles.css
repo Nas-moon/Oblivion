@@ -31,3 +31,16 @@ hr{
   box-shadow: 2px 1px 2px 1px;
 }
 
+#binary-container {
+  color: silver;          /* makes the binary text visible */
+  font-family: 'Poppins', monospace; /* monospace looks cool for code */
+  font-size: 14px;        /* adjust size as you like */
+  padding: 20px;
+  white-space: pre-wrap;  /* keeps spaces and line breaks */
+  max-width: 90%;
+  margin: 20px auto;      /* centers it */
+  border: 1px solid #555; /* optional border for visibility */
+  border-radius: 8px;
+  background: #1b1429;    /* optional background for contrast */
+}
+

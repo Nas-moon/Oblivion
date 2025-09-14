@@ -14,8 +14,8 @@ body,html {
 }
 
 nav .logo {
-  height: 40px;   /* keeps it small */
-  width: auto;    /* keeps aspect ratio */
+  height: 20px;   /* keeps it small */
+  width: 20px;    /* keeps aspect ratio */
 }
 
 .buttons {

@@ -82,7 +82,7 @@ video {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
-  align-item: center;
+  align-items: center;
 }
 h1 {
   color: silver;

@@ -1,17 +1,23 @@
 body {
-  background-color: lineargradient(135deg,#140e20 50%,#36013f 100%);
+  background-color: #140e20;
 }
 h1 {
   font-family: Impact;
   color: silver;
 }
+hr{
+  max-width: auto;
+  background-color: silver;
+  height: 2px;
+}
 p{
   color: silver;
 }
 .neon{
-  background: rgba(192,192,192,1.0)
+  background: lineargradient(135deg,rgba(192,192,192,1.0) 50%,rgba(210,210,210,1.0)100%);
   width: auto;
   height: 3px;
   border: 1px;
   box-shadow: 2px 1px 40%;
 }
+

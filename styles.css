@@ -34,7 +34,7 @@ nav .logo {
 hr{
   border: 2px solid white;
 }
-.buttons {
+.nav ul li {
   display: flex;
   gap: 20px;
   margin: 0;

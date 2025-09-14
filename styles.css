@@ -9,21 +9,28 @@ body, html {
 
 /* Nav bar */
 nav {
-  width: 100%;
-  background: #140e20;
-  color: white;
   display: flex;
-  justify-content: space-between;  /* logo left, links right */
+  justify-content: flex-start;   /* push everything to the left */
   align-items: center;
+  gap: 40px;                     /* space between logo and links */
   padding: 10px 40px;
+  background: #140e20;
   box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-  position: fixed;   /* stays at top */
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
   z-index: 1000;
 }
 
-/* Logo */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
 nav .logo {
   height: 40px;   /* fix logo size */
   width: auto;
@@ -33,14 +40,6 @@ nav .logo {
   display: inline-block;
 }
 
-
- nav ul{
-   list-style: none;
-   display: flex;
-   gap: 25px;
-   padding-right: 30px;
-   margin: 0 auto;
- }
 
 nav ul li a {
   padding: 6px 12px;

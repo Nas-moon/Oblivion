@@ -4,6 +4,28 @@ body,html {
   height: 100%;
   background: #140e20;
 }
+  nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #333;
+  color: #140e20;
+}
+
+nav .logo {
+  height: 40px;   /* keeps it small */
+  width: auto;    /* keeps aspect ratio */
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  color: #140e20;
+  border: 1px solid white;
+}
 
 body {
   display: flex;

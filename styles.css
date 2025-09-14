@@ -36,9 +36,10 @@ h1 {
 }
 
 img {
-    height:auto;
+    width: 100%;
     max-width: 300px; 
     margin:0 auto;
     border-radius: 10px;
+    display: block;
 }
 

@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;  /* logo left, links right */
   align-items: center;
-  padding: 10px 30px;
+  padding: 10px 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.4);
   position: fixed;   /* stays at top */
   top: 0;
@@ -32,15 +32,13 @@ nav .logo {
   display: inline-block;
 }
 
- 
-hr{
-  border: 2px solid white;
-}
+
  nav ul{
    list-style: none;
    display: flex;
-   gap: 5px;
-   margin: 0;
+   gap: 2px;
+   margin-right: 75%;
+   margin-left: 25%;
    padding: 0;
  }
 
@@ -50,8 +48,7 @@ nav ul li a {
   color: white;
   font-size: 16px;
   border: 1px solid white;
-  border-radius: 10px;
-  align-item: left;
+  align-items: left;
 }
 
 body {

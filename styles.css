@@ -47,7 +47,6 @@ nav ul li a {
   border-radius: 6px;
   color: white;
   font-size: 16px;
-  align-items: left;
   transition: background 0.3s, color 0.3s;
 }
 

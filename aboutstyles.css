@@ -16,10 +16,7 @@ hr{
   background-color: silver;
   height: 2px;
 }
-#binary{
-  color: silver;
-  text-align: center;
-}
+
 .neon{
   background: linear-gradient(135deg,rgba(192,192,192,1.0) 50%,rgba(210,210,210,1.0)100%);
   width: 100%;

@@ -7,7 +7,7 @@ body,html {
   nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   padding: 10px 20px;
   background: #333;
   color: #140e20;

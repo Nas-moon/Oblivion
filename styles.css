@@ -37,8 +37,7 @@ nav .logo {
    list-style: none;
    display: flex;
    gap: 25px;
-   margin-right: 75%;
-   margin-left: 25%;
+   justify-content: space-between;
    padding-right: 30px;
  }
 

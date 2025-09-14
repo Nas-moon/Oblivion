@@ -20,7 +20,6 @@ nav {
   top: 0;
   left: 0;
   z-index: 1000;
-  border-radius: 3px
 }
 
 /* Logo */
@@ -40,8 +39,9 @@ hr{
   gap: 20px;
   margin: 0;
   padding: 0;
-  color: #140e20;
+  background-color: #140e20;
   border: 1px solid white;
+  border-radius: 10px;
 }
 
 body {

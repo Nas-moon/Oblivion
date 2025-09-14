@@ -15,6 +15,7 @@ h1, h2 {
 hr {
     background-color: silver;
     height: 2px;
+    border: none;
 }
 
 .neon {

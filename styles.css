@@ -84,4 +84,7 @@ h1 {
   display: block;
 }
 
-
+script {
+  color: white;
+  background-color: red;
+}

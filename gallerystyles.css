@@ -1,0 +1,72 @@
+<style>
+    body {
+      font-family: monospace;
+      background: black;
+      color: #0ff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    }
+
+    /* Gallery initially glitched */
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+      filter: blur(8px) hue-rotate(90deg) contrast(200%);
+      pointer-events: none; /* locked */
+      transition: filter 1s ease;
+    }
+
+    #gallery img {
+      width: 100%;
+      border-radius: 8px;
+      opacity: 0.6;
+    }
+
+    /* Puzzle Box */
+    #puzzle-box {
+      margin-top: 30px;
+      padding: 20px;
+      border: 2px solid #0ff;
+      border-radius: 10px;
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 15px #0ff;
+    }
+
+    input {
+      padding: 8px;
+      border: 2px solid #0ff;
+      border-radius: 5px;
+      background: black;
+      color: #0ff;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      background: #0ff;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #0cc;
+    }
+
+    /* Unlocked gallery */
+    .unlocked {
+      filter: none !important;
+      pointer-events: auto;
+    }
+  </style>

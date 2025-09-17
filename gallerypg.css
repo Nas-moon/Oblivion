@@ -20,7 +20,8 @@ h1{
   text-align: center;
 }
 
-img{
+.images {
   width: 500px;
+  max width: 600px;
   height: auto;
 }

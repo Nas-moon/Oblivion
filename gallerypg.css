@@ -22,12 +22,16 @@ h1{
   text-align: center;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .images {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 10px auto;
 }
 
 p {

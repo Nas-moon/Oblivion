@@ -31,6 +31,7 @@ p {
   font-family: monospace;
   color: silver;
   background-color: lime;
+  text-align: center;
 }
 
 p a:hover {

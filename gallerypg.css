@@ -31,8 +31,9 @@ h1{
 }
 .images {
   border-radius: 10px;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+  margin: 10px 0;
 }
 
 p {

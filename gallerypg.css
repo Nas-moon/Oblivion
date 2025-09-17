@@ -25,3 +25,23 @@ h1{
   max-width: 400px;
   height: auto;
 }
+
+p {
+  font-size: 18px;
+  font-family: monospace;
+  color: silver;
+  background-color: lime;
+}
+
+p a:hover {
+  color: pink;
+}
+
+p a:active {
+  color: pink;
+}
+
+p a:link {
+  color: #140e20;
+}
+
